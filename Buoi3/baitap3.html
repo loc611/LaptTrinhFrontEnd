@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        <table>
+            <tr>
+                <!--First Name-->
+                <td><label for="name">First Name:</label></td>
+                <td><input type="text" id="name" placeholder="Enter First Name"></td>
+            </tr>
+            <tr>
+                <!--Last Name-->
+                <td><label for="lastname">Last Name:</label></td>
+                <td><input type="text" id="lastname" placeholder="Enter Last Name"></td>
+            </tr>
+            <tr>
+                <!--Email-->
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" placeholder="Enter Email Address"></td>
+            </tr>
+            <tr>
+                <!--Password-->
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+                <!--Gender-->
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <input type="radio" name="gt">Male
+                    <input type="radio" name="gt">Female
+                    <input type="radio" name="gt">Other
+                </td>
+            </tr>
+            <tr>
+                <!--Age-->
+                <td><label for="age">Age:</label></td>
+                <td>
+                    <input type="number" id="age" placeholder="Enter Age">
+                </td>
+            </tr>
+            <tr>
+                <!---Perferences-->
+                <td><label for="preferences">Preferences:</label></td>
+                <td>
+                    <input type="checkbox">Acrylic Painting
+                    <input type="checkbox">Traveling
+                    <input type="checkbox">Eating
+            </tr>
+            <tr>
+                <!--select occupation-->
+                <td><label for="occupation">Select Occupation:</label></td>
+                <td>
+                    <select id="occupation">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="engineer">Engineer</option>
+                        <option value="doctor">Doctor</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <!--Bio-->
+                <td><label for="bio">Bio:</label></td>
+                <td><textarea id="bio" placeholder="Share few lines about yourself..." rows="5s"></textarea></td>
+            </tr>
+            <tr>
+               <!--RESET-->
+                <td><input type="reset" value="RESET">
+                <!--SUBMIT-->
+                <input type="submit" value="SUBMIT"></td>
+        </table>
+    </form>
+</body>
+</html>
